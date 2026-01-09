@@ -20,10 +20,10 @@ const nuevaTarea = {
   fechaEntrega: "2024-01-20"
 };
 ````
-2.2 Problema que resuelve
+## 2.2 Problema que resuelve
 
-Los estudiantes suelen olvidar fechas de entrega o sobrecargarse de trabajo. TaskMaster Pro soluciona esto con:
-Tabla comparativa:
+### Los estudiantes suelen olvidar fechas de entrega o sobrecargarse de trabajo. TaskMaster Pro soluciona esto con:
+### Tabla comparativa:
 | Problema común | Solución TaskMaster | Beneficio |
 |----------------|---------------------|-----------|
 | Olvido de fechas | **Recordatorios automáticos** | -90% entregas tarde |
