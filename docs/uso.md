@@ -3,7 +3,7 @@
 ## 4.1 Capturas
 
 ### **Pantalla principal:**
-![Dashboard TaskMaster](/assets/dashboard.png)
+![Dashboard TaskMaster](https://store-wp.mui.com/wp-content/uploads/2019/08/tabler-react.com_-min-e1565617941333.png)
 
 *Interfaz principal con:*
 1. **Lista de tareas** pendientes
