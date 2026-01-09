@@ -27,6 +27,8 @@
 | • PostgreSQL (producción)                  |
 +---------------------------------------------+
 
+![Diagrama en imagen](https://i.redd.it/nzzpm5jv8l091.jpg)
+
 
 ## 5.2 Explicación técnica
 
