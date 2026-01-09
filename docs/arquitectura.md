@@ -2,30 +2,33 @@
 
 ## 5.1 Diagrama del sistema
 
-+---------------------------------------------+
-| Frontend (React)                            |
-|---------------------------------------------|
-| • Interfaz de usuario                       |
-| • Componentes reutilizables                 |
-+------------------------+--------------------+
-                         |
-                         | HTTP / REST
-                         |
-+------------------------v--------------------+
-| Backend (Node.js)                          |
-|---------------------------------------------|
-| • API REST (Express.js)                    |
-| • Autenticación JWT                        |
-| • Lógica de negocio                        |
-+------------------------+--------------------+
-                         |
-                         |
-+------------------------v--------------------+
-| Base de Datos                              |
-|---------------------------------------------|
-| • SQLite (desarrollo)                      |
-| • PostgreSQL (producción)                  |
-+---------------------------------------------+
+```mermaid
+graph TB
+    subgraph "Frontend"
+        A[HTML/CSS] --> B[JavaScript]
+        B --> C[React Components]
+    end
+    
+    subgraph "Backend"
+        D[Node.js Server] --> E[Express API]
+        E --> F[Authentication]
+    end
+    
+    subgraph "Base de Datos"
+        G[(SQLite Database)]
+    end
+    
+    subgraph "Infraestructura"
+        H[GitHub Pages]
+        I[Git Version Control]
+    end
+    
+    C --> E
+    E --> G
+    F --> C
+    H --> A
+    I --> D
+```
 
 ![Diagrama en imagen](https://i.redd.it/nzzpm5jv8l091.jpg)
 
