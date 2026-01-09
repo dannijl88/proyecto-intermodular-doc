@@ -33,4 +33,4 @@
 
 ---
 
-**Navegación:** [Siguiente →](2-introduccion.md)
+**Navegación:** [Siguiente →](introduccion.md)
